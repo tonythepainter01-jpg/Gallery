@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tony the Painter | Painting & Home Improvement</title>
+  <meta name="description" content="Tony the Painter provides painting, drywall repair, flooring, trim, caulking, power washing, light fixture installs, and more. Call 916-802-3517." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">Tony the Painter</a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">Values</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#quote">Request Quote</a>
+      <a class="call-link" href="tel:9168023517">916-802-3517</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Sunrise to Sundown • Built with Integrity</p>
+        <h1>No shortcuts. No excuses. Just good work.</h1>
+        <p class="hero-text">Quality painting and home improvement services done right the first time.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="tel:9168023517">Call Tony</a>
+          <a class="button secondary" href="#quote">Request a Quote</a>
+        </div>
+      </div>
+      <div class="hero-image-card">
+        <img src="assets/tony-flyer.png" alt="Tony the Painter flyer showing services and phone number" />
+      </div>
+    </section>
+
+    <section id="services" class="section light">
+      <div class="section-heading">
+        <p class="eyebrow dark">What Tony Does</p>
+        <h2>Painting, repairs, upgrades, and more.</h2>
+      </div>
+      <div class="services-grid">
+        <article>Interior & exterior painting</article>
+        <article>Light fixture installation</article>
+        <article>Baseboards & trim</article>
+        <article>Vinyl, laminate, and wood flooring</article>
+        <article>Power washing</article>
+        <article>Drywall repair</article>
+        <article>Caulking</article>
+        <article>Clean lines and perfect edges</article>
+        <article>Details that matter</article>
+      </div>
+    </section>
+
+    <section id="about" class="section values">
+      <div class="value-card">
+        <h3>Integrity</h3>
+        <p>Always honest and dependable.</p>
+      </div>
+      <div class="value-card">
+        <h3>Quality</h3>
+        <p>No shortcuts. Work done right.</p>
+      </div>
+      <div class="value-card">
+        <h3>Protects Your Home</h3>
+        <p>Careful prep, clean work, and respect for your space.</p>
+      </div>
+      <div class="value-card">
+        <h3>Good Vibes</h3>
+        <p>Friendly service and upbeat music.</p>
+      </div>
+    </section>
+
+
+    <section id="testimonials" class="section testimonials-section">
+      <div class="section-heading">
+        <p class="eyebrow dark">Customer Testimonials</p>
+        <h2>What customers are saying.</h2>
+        <p>Had a great experience with Tony? Leave a comment below.</p>
+      </div>
+
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <p>“Tony showed up on time, protected our home, and did clean, detailed work.”</p>
+          <strong>— Happy Customer</strong>
+        </article>
+        <article class="testimonial-card">
+          <p>“Professional, honest, and easy to work with from start to finish.”</p>
+          <strong>— Local Homeowner</strong>
+        </article>
+        <article class="testimonial-card">
+          <p>“Great attention to detail. The finished work looked excellent.”</p>
+          <strong>— Sacramento Area Customer</strong>
+        </article>
+      </div>
+
+      <form id="testimonialForm" class="testimonial-form" action="https://formsubmit.co/YOUR-EMAIL-HERE" method="POST">
+        <input type="hidden" name="_subject" value="New Customer Testimonial for Tony the Painter" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+
+        <label>
+          Name
+          <input name="name" type="text" required placeholder="Your name" />
+        </label>
+
+        <label>
+          Email
+          <input name="email" type="email" required placeholder="you@example.com" />
+        </label>
+
+        <label>
+          Your Comment
+          <textarea name="testimonial" required rows="5" placeholder="Share your experience with Tony."></textarea>
+        </label>
+
+        <button type="submit">Post Comment</button>
+        <p class="form-note">Comments are sent to Tony for review before being added to the website.</p>
+      </form>
+    </section>
+
+    <section id="quote" class="section quote-section">
+      <div class="quote-copy">
+        <p class="eyebrow">Free Estimate Request</p>
+        <h2>Tell Tony about your project.</h2>
+        <p>Fill out the form below and Tony will follow up about your painting, flooring, repair, power washing, or home improvement job.</p>
+        <div class="phone-box">
+          <span>Call or text</span>
+          <a href="tel:9168023517">916-802-3517</a>
+        </div>
+      </div>
+
+      <form id="quoteForm" class="quote-form" action="https://formsubmit.co/YOUR-EMAIL-HERE" method="POST">
+        <input type="hidden" name="_subject" value="New Website Quote Request for Tony the Painter" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+
+        <label>
+          Name
+          <input name="name" type="text" required placeholder="Your name" />
+        </label>
+
+        <label>
+          Email
+          <input name="email" type="email" required placeholder="you@example.com" />
+        </label>
+
+        <label>
+          Contact Number
+          <input name="phone" type="tel" required placeholder="916-555-1234" />
+        </label>
+
+        <label>
+          Brief Description of Job
+          <textarea name="job_description" required rows="6" placeholder="Tell Tony what you need done, where the job is located, and your ideal timeline."></textarea>
+        </label>
+
+        <button type="submit">Send Request</button>
+        <p class="form-note">Before publishing, replace <strong>YOUR-EMAIL-HERE</strong> with Tony’s email address in index.html.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Tony the Painter</strong>
+    <span>916-802-3517</span>
+    <span>Built with integrity. Painted with passion.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
